@@ -6,7 +6,6 @@ import {
   updateService,
   type CreateServicePayload,
   type Service,
-  type ServiceSchedule,
 } from '../api/services';
 import { Plus, Search, Clock, Users, X, Check, Pencil, ToggleLeft, ToggleRight } from 'lucide-react';
 
