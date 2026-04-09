@@ -1,0 +1,7 @@
+services:
+  admin:
+    build: .
+    container_name: admin-hospital
+    restart: unless-stopped
+    ports:
+      - "8080:80"
